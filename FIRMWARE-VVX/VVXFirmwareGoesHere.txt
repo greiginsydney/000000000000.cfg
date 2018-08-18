@@ -1,0 +1,2 @@
+
+Copy the downloaded VVX firmware to this folder and unzip it into its own sub-folder. This way you can maintain multiple firmware versions and stage the rollout into production.
