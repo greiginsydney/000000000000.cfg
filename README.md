@@ -1,13 +1,13 @@
 # 000000000000.cfg
 # Master config for Polycom VVX &amp; Trio device families
 
-This repo is the updated and open-source version of my blog post [Optimising the Polycom VVX for Lync/SfB] (https://greiginsydney.com/optimising-the-polycom-vvx-for-lync/).  You can read some of the history and more detailed explanations there, but all the config now resides here.
+This repo is the updated and open-source version of my blog post [Optimising the Polycom VVX for Lync/SfB](https://greiginsydney.com/optimising-the-polycom-vvx-for-lync/).  You can read some of the history and more detailed explanations there, but all the config now resides here.
 
 ## How-To
 
 1. Copy this repo to your provisioning server
 2. Unzip the lot into the root folder your FTP server directs the phones to. In my deployments that's usually something like `C:\Polycom-UCS\`
-3. Download the "split" version of the [Polycom firmware ZIP] (https://support.polycom.com/content/support/north-america/usa/en/support/voice.html) into the relevant folder
+3. Download the "split" version of the [Polycom firmware ZIP](https://support.polycom.com/content/support/north-america/usa/en/support/voice.html) into the relevant folder
   
    e.g. `Firmware-VVX`
 4. Unzip the archive to create a separate folder structure for each firmware version. I name mine with the version and release date:
@@ -52,22 +52,23 @@ In the root of this repo you'll find multiple XML ".cfg" files:
   Customises the tones for Australia
 - courtesy.cfg
   
-  This file locks down a phone that will go into a public or otherwise untrusted area. It disables all external ports and disables ALL buttons other than the digit keypad and the volumn up/down buttons.  If you don't change it, when the handset goes off-hook it will Hotline to "1231". Change the "call.autoOffHook.1.contact" line to your required destination, or remove the line to make it a very basic phone. Refer my blog post [A VVX Courtesy Phone] (https://greiginsydney.com/a-vvx-courtesy-phone/) for some more details
+  This file locks down a phone that will go into a public or otherwise untrusted area. It disables all external ports and disables ALL buttons other than the digit keypad and the volumn up/down buttons.  If you don't change it, when the handset goes off-hook it will Hotline to "1231". Change the "call.autoOffHook.1.contact" line to your required destination, or remove the line to make it a very basic phone. Refer my blog post [A VVX Courtesy Phone](https://greiginsydney.com/a-vvx-courtesy-phone/) for some more details
 - wifi.cfg
   
-  With a VVX 500 or 600-series and a Obihai USB Wifi dongle, this config file will ensure the phone automatically connects to the specified network. Read more in [A Fully Wireless VVX] (https://greiginsydney.com/a-fully-wireless-vvx/)
+  With a VVX 500 or 600-series and a Obihai USB Wifi dongle, this config file will ensure the phone automatically connects to the specified network. Read more in [A Fully Wireless VVX](https://greiginsydney.com/a-fully-wireless-vvx/)
 
 
 ## Tips
-- I generally use [Notepad++] (https://notepad-plus-plus.org/) for editing, but as a final test of the file before I make it live I open it with [XML Notepad 2007] (https://www.microsoft.com/en-us/download/details.aspx?id=7973). This will quickly highlight any bugs in your XML syntax
+- I generally use [Notepad++](https://notepad-plus-plus.org/) for editing, but as a final test of the file before I make it live I open it with [XML Notepad 2007](https://www.microsoft.com/en-us/download/details.aspx?id=7973). This will quickly highlight any bugs in your XML syntax
 - Once the phone's rebooted, Home - Settings - 4 - 1 - 3 (on all VVX models) will show the status screen, confirming the files were found and applied, and the count of any errors or duplicates
 
 
 ## Credits
 
-Thanks to [Jeff Schertz] (http://blog.schertz.name/) for all his contributions to the product family over the years, [James Cussen] (https://www.myskypelab.com/) for his tools, and to my colleagues, customers and peers for their tips, suggestions & corrections.
+Thanks to [Jeff Schertz](http://blog.schertz.name/) for all his contributions to the product family over the years, [James Cussen](https://www.myskypelab.com/) for his tools, and to my colleagues, customers and peers for their tips, suggestions & corrections.
 
 
-
+ 
+ 
 
 \- Greig.
