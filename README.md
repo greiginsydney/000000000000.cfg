@@ -55,7 +55,7 @@ In the root of this repo you'll find multiple XML ".cfg" files:
   This file locks down a phone that will go into a public or otherwise untrusted area. It disables all external ports and disables ALL buttons other than the digit keypad and the volumn up/down buttons.  If you don't change it, when the handset goes off-hook it will Hotline to "1231". Change the "call.autoOffHook.1.contact" line to your required destination, or remove the line to make it a very basic phone. Refer my blog post [A VVX Courtesy Phone](https://greiginsydney.com/a-vvx-courtesy-phone/) for some more details
 - wifi.cfg
   
-  With a VVX 500 or 600-series and a Obihai USB Wifi dongle, this config file will ensure the phone automatically connects to the specified network. Read more in [A Fully Wireless VVX](https://greiginsydney.com/a-fully-wireless-vvx/)
+  With a VVX 500 or 600-series and a Obihai USB Wifi dongle, this config file will ensure the phone automatically connects to the specified network. Read more in [VVX wifi.cfg](https://greiginsydney.com/vvx-wifi-cfg/)
 
 
 ## Tips
