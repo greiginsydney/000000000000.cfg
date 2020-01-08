@@ -59,7 +59,7 @@ In the root of this repo you'll find multiple XML ".cfg" files:
 
 
 ## Tips
-- I generally use [Notepad++](https://notepad-plus-plus.org/) for editing, but as a final test of the file before I make it live I open it with [XML Notepad 2007](https://github.com/Microsoft/XmlNotepad/wiki). This will quickly highlight any bugs in your XML syntax
+- I generally use [Notepad++](https://notepad-plus-plus.org/) for editing, but as a final test of the file before I make it live I open it with [XML Notepad 2007](http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip). This will quickly highlight any bugs in your XML syntax
 - Once the phone's rebooted, Home - Settings - 4 - 1 - 3 (on all VVX models) will show the status screen, confirming the files were found and applied, and the count of any errors or duplicates
 
 
